@@ -5,11 +5,7 @@ from scipy.integrate import cumtrapz, solve_ivp
 import plotly.graph_objects as go
 from numpy.core.numeric import Inf
 
-#Last edition date:
-from datetime import date
-
-today = date.today()
-date = '21.02.2022'###Edit before deployment with, e.g., '28.06.2022'
+date = "24.02.2022"###Edit before deployment with, e.g., '28.06.2022'
 #-----------------//
 
 ##-----------NUMERICAL METHODS-----------##
